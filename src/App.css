@@ -1,0 +1,39 @@
+:root {
+  --primary-color: #242424;
+  --secondary-color: hsla(220, 2%, 70%, 0.9);
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  text-align: center;
+}
+
+.show-image {
+  overflow: hidden;
+}
+
+
+@media screen and (max-width: 1150px) {
+
+  .image-gallery {
+    grid-template-columns: repeat(2 , 1fr);
+  }
+
+  i {
+    filter: drop-shadow(2px 2px 0.2rem var(--primary-color));
+  }
+} 
+
+@media screen and (max-width: 900px) {
+
+  .image-gallery {
+    grid-template-columns: repeat(1 , 1fr);
+  }
+
+  .show-container {
+    overflow: hidden;
+  }
+} 

@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+  font-family: "Kode Mono", monospace;
+}
+
+body {
+  background-color: var(--primary-color);
+}
