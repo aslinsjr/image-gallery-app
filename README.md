@@ -1,5 +1,5 @@
 # Challenge React30 - Project 2: Click App
-Essa é uma solução do desafio proposto por [ Saurabh Mhatre: ](https://smhatre59.medium.com/react-30-project-2-building-a-clicker-app-with-react-js-79831b1ae037)
+Essa é uma solução do desafio proposto por [ Saurabh Mhatre: ](https://smhatre59.medium.com/react30-project5-building-an-image-gallery-app-with-react-js-2f1095043561)
 
 
 ### Screenshot
