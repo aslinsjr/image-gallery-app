@@ -13,7 +13,7 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 1.5rem;
     word-spacing: 2rem;
-    animation: blinkAnimation 3s;
+    animation: blink 1s infinite;
 }
 
 .image-gallery {
@@ -34,23 +34,4 @@ h2 {
 .image:hover {
     transform: scale(1.02);
     opacity: 1;
-}
-
-@keyframes blinkAnimation {
-    0% {
-        font-weight: lighter;
-    }
-
-    50% {
-        font-weight: bolder;
-        transform: scale(1.02);
-    }
-
-    75% {
-        font-weight: lighter;
-    }
-
-    100% {
-        font-weight: bold;
-    }
 }

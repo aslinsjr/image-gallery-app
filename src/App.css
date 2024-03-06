@@ -1,6 +1,6 @@
 :root {
   --primary-color: #242424;
-  --secondary-color: hsla(220, 2%, 70%, 0.9);
+  --secondary-color: hsl(250, 12%, 90%);
 }
 
 .container {
