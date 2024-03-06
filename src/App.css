@@ -36,8 +36,10 @@
   .show-container {
     overflow: hidden;
   }
+} 
 
+@media screen and (max-width: 500px) {
   #show-image {
     max-width: 500px;
   }
-} 
+}
