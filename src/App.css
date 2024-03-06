@@ -31,6 +31,7 @@
 
   .image-gallery {
     grid-template-columns: repeat(1 , 1fr);
+    padding: 5rem 0 0 0;
   }
 
   .show-container {
