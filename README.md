@@ -8,8 +8,8 @@ Essa é uma solução do desafio proposto por [ Saurabh Mhatre: ](https://smhatr
 
 ### Links
 
-- Solução URL: [Repository]()
-- Live Site URL: [Live Page]()
+- Solução URL: [Repository](https://github.com/aslinsjr/image-gallery-app)
+- Live Site URL: [Live Page](https://image-gallery-app-roan.vercel.app/)
 
 ### Desenvolvido com
 
@@ -20,7 +20,7 @@ Essa é uma solução do desafio proposto por [ Saurabh Mhatre: ](https://smhatr
 
 ### O que aprendi
 
-Nesse desafio explorei o uso do hook useState, e os efeitos de animação simples com CSS.
+O maior aprendizado neste desafio foi a aplicação do atributo "onLoad" e as interações de espera do usuário antes da renderização de elementos.
 
 
 ## Autor
