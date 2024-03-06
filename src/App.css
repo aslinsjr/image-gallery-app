@@ -36,4 +36,8 @@
   .show-container {
     overflow: hidden;
   }
+
+  #show-image {
+    max-width: 500px;
+  }
 } 
