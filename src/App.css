@@ -43,4 +43,11 @@
   #show-image {
     max-width: 500px;
   }
+
+  .show-menu {
+    flex-direction: row;
+    bottom: 7%;
+    right: 40%;
+    gap: 1rem;
+  }
 }

@@ -28,8 +28,8 @@ const ShowComponent = ({photoId, returnGallery}) => {
         <img id='show-image' src={srcId === photoId ? loadedImg : `https://picsum.photos/id/${srcId}/4000/2666.jpg`} alt="Photo Image" onLoad={() => imageChange()}/>
         <div className="show-menu">
           <i className="bi bi-house" onClick={() => returnGallery()}></i>
-          <i className="bi bi-arrow-right" onClick={(e) => handleNavegation(e)}></i>
           <i className="bi bi-arrow-left" onClick={(e) => handleNavegation(e)}></i>
+          <i className="bi bi-arrow-right" onClick={(e) => handleNavegation(e)}></i>
         </div>
       </div>
     </div>
