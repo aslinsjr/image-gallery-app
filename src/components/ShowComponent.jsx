@@ -14,10 +14,14 @@ const ShowComponent = ({photoId, returnGallery}) => {
   const handleNavegation = (e) => {
     
     if(e.target.className.includes("right")) {
+      setLoadedImg("loader.gif")
+
       setSrcId(+srcId + 1)
     }
 
     if(e.target.className.includes("left")) {
+      setLoadedImg("loader.gif")
+      
       setSrcId(+srcId - 1)
     }
   }
@@ -25,7 +29,7 @@ const ShowComponent = ({photoId, returnGallery}) => {
   return (
     <div className='show-container'>
       <div className="show-image-box">
-        <img id='show-image' src={srcId === photoId ? loadedImg : `https://picsum.photos/id/${srcId}/4000/2666.jpg`} alt="Photo Image" onLoad={() => imageChange()}/>
+        <img id='show-image' src={loadedImg} alt="Photo Image" onLoad={() => imageChange()}/>
         <div className="show-menu">
           <i className="bi bi-house" onClick={() => returnGallery()}></i>
           <i className="bi bi-arrow-left" onClick={(e) => handleNavegation(e)}></i>

@@ -12,12 +12,12 @@ function App() {
 
   useEffect(() => {
     axios.get('https://picsum.photos/v2/list')
-    .then(function(response) {
-      setPhotoArray(response.data)
-    })
-    .catch(function(error) {
-      console.log(error)
-    })
+      .then(function (response) {
+        setPhotoArray(response.data)
+      })
+      .catch(function (error) {
+        console.log(error)
+      })
   }, [])
 
   const handleClick = (e) => {
@@ -30,8 +30,8 @@ function App() {
 
   return (
     <div className={photoId === "" ? 'container' : 'container show-image'}>
-      <GalleryComponent photoArray={photoArray} handleClick={handleClick}/>
-      {photoId === "" ? <div></div> : <ShowComponent photoId={photoId} returnGallery={returnGallery}/>}
+      <GalleryComponent photoArray={photoArray} handleClick={handleClick} />
+      {photoId === "" ? <div></div> : <ShowComponent photoId={photoId} returnGallery={returnGallery} />}
     </div>
   )
 }
